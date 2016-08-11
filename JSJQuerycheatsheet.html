@@ -1,0 +1,36 @@
+<!doctype html>
+	<html>
+		<head>
+			<title>JS/JQuery Cheat Sheet</title>
+			<script src="JS/JSJQuerycheatsheet.js"></script>
+			<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+			<script>
+			//You can add effects to text
+				$(document).ready(function(){
+					$('h2').animate ({
+						opacity: 3.25,
+						width: "70%"
+					});
+				//You can fade in or fade out text
+				$('#loremIpsum').fadeOut(4000);
+
+				//You can also slide things up or down
+				$('#airplane').slideUp(6000);
+
+				//You can even do this with images!
+				$('#airplane').slideUp(6000);
+
+				});
+			});
+		</script>
+		</head>
+		<body>
+			<h2>HEY!</h2>
+
+			<p id="loremIpsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed ornare nisl. Curabitur tempus est ut accumsan convallis. Duis vehicula pretium orci eget cursus. Curabitur purus tortor, accumsan ac risus id, faucibus egestas turpis. Aenean tristique maximus ante ut commodo. Vestibulum aliquet turpis at tortor dictum scelerisque. Quisque iaculis consectetur finibus. Fusce tincidunt elit quis sagittis vestibulum. Praesent vulputate justo iaculis tellus fermentum, ut maximus ex porttitor. Aenean viverra lorem purus, sit amet convallis ante fermentum quis.</p>
+
+			<img id="airplane" src="http://kiddiescornerdeals.com/wp-content/uploads/2012/12/airplane.jpg">
+
+
+		</body>
+	</html>
